@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "journey-python"
+version = "0.1.0"
+description = ""
+authors = ["mahmudul006 <mahmudul.hasan@selisegroup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+motor = "^3.5.1"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pyjwt = "^2.9.0"
+python-jose = "^3.3.0"
+pymongo = "^4.9.1"
+python-dotenv = "^1.0.1"
+python-multipart = "^0.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
